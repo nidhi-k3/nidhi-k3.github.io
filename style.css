@@ -94,6 +94,18 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 6rem 2rem 4rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--duke-blue), var(--accent-blue));
 }
 
 .hero-content {
@@ -161,6 +173,24 @@ nav {
 /* About Section */
 .about {
     background: var(--bg-light);
+    position: relative;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: var(--duke-blue);
+    border-radius: 2px;
+}
+
+.about h2 {
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .about-content p {
@@ -173,6 +203,7 @@ nav {
 .about-content em {
     font-style: italic;
     color: var(--duke-blue);
+    font-weight: 500;
 }
 
 /* Work Section */
@@ -291,8 +322,9 @@ footer p {
     min-height: 50vh;
     display: flex;
     align-items: center;
-    background: var(--bg-light);
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     padding: 8rem 2rem 4rem;
+    border-bottom: 3px solid var(--duke-blue);
 }
 
 .project-hero-content {
@@ -307,10 +339,12 @@ footer p {
     margin-bottom: 2rem;
     display: inline-block;
     font-weight: 500;
+    transition: all 0.2s ease;
 }
 
 .back-link:hover {
-    text-decoration: underline;
+    color: var(--accent-blue);
+    transform: translateX(-4px);
 }
 
 .project-meta {
@@ -318,16 +352,22 @@ footer p {
     gap: 2rem;
     margin: 2rem 0;
     flex-wrap: wrap;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .meta-item {
     flex: 1;
     min-width: 150px;
+    padding: 1rem;
+    border-left: 3px solid var(--duke-blue);
 }
 
 .meta-label {
     font-size: 0.85rem;
-    color: var(--text-gray);
+    color: var(--duke-blue);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -337,6 +377,7 @@ footer p {
 .meta-value {
     color: var(--text-dark);
     font-size: 1rem;
+    font-weight: 500;
 }
 
 .project-content {
@@ -352,6 +393,9 @@ footer p {
 .project-section h3 {
     color: var(--duke-blue);
     margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--duke-blue);
+    font-size: 1.75rem;
 }
 
 .project-section p, .project-section ul {
@@ -367,6 +411,31 @@ footer p {
 
 .project-section li {
     margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.project-section li::before {
+    content: "→";
+    color: var(--duke-blue);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.project-section strong {
+    color: var(--duke-blue);
+    font-weight: 600;
+}
+
+.project-section a {
+    color: var(--duke-blue);
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.project-section a:hover {
+    color: var(--accent-blue);
 }
 
 .image-grid {
