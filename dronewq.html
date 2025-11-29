@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DroneWQ Desktop Application | Nidhi Khiantani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">NIDHI KHIANTANI</a>
+            <div class="nav-links">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#work">WORK</a>
+                <a href="resume.html">RESUME</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <a href="index.html#work" class="back-link">← Back to Projects</a>
+            <h1>DroneWQ Desktop Application</h1>
+            <p class="subtitle">Full-stack water quality analysis tool processing multispectral drone imagery</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Role</div>
+                    <div class="meta-value">Backend & Software Engineer</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Timeline</div>
+                    <div class="meta-value">August 2025 - December 2025</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Team</div>
+                    <div class="meta-value">Artemis (Frontend), Nidhi (Backend)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-content">
+        <div class="project-section">
+            <h3>Project Overview</h3>
+            <p>DroneWQ is a desktop application built with Python and Electron that processes multispectral drone images to analyze water quality metrics. The tool reduces manual data processing time from 8 hours to 15 minutes—a 97% reduction—by automating image analysis, environmental metrics calculation, and report generation.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>My Contributions</h3>
+            <ul>
+                <li><strong>Backend Architecture:</strong> Engineered the Flask API backend with RESTful endpoints for image upload, processing, and results retrieval</li>
+                <li><strong>Data Pipeline:</strong> Implemented Python modules for multispectral image analysis, calculating chlorophyll concentration, turbidity, and other water quality indicators</li>
+                <li><strong>Package Distribution:</strong> Deployed a PyPI package to make core processing modules reusable across research projects</li>
+                <li><strong>Accessibility Features:</strong> Integrated Google Gemini API to generate AI-powered plot descriptions for screen reader accessibility</li>
+                <li><strong>Keyboard Navigation:</strong> Implemented comprehensive keyboard shortcuts and focus management for improved accessibility</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Technical Stack</h3>
+            <p><strong>Frontend:</strong> Electron framework for cross-platform desktop app</p>
+            <p><strong>Backend:</strong> Flask (Python) for API server, NumPy and Pandas for data processing</p>
+            <p><strong>Image Processing:</strong> Custom algorithms for multispectral analysis of 1000+ drone images</p>
+            <p><strong>AI Integration:</strong> Google Gemini API for generating natural language descriptions of data visualizations</p>
+            <p><strong>Deployment:</strong> PyPI package for core processing modules</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Key Features</h3>
+            <ul>
+                <li>Batch processing of multispectral drone imagery</li>
+                <li>Automated calculation of environmental metrics (chlorophyll-a, turbidity, temperature)</li>
+                <li>Interactive data visualization with plot export</li>
+                <li>AI-generated plot descriptions for accessibility compliance</li>
+                <li>Comprehensive keyboard navigation (Tab, Arrow keys, Enter, Escape)</li>
+                <li>Export functionality for analysis reports</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Accessibility Implementation</h3>
+            <p>One of my favorite features to implement was the AI-generated plot descriptions. Many researchers rely on screen readers, and traditional data visualizations are inaccessible to them. I integrated Google's Gemini API to automatically generate descriptive text for each plot, explaining trends, outliers, and key findings.</p>
+            
+            <p>I also implemented comprehensive keyboard navigation, ensuring every feature in the app is accessible without a mouse. This included proper focus management, ARIA labels, and semantic HTML structure.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Data Processing Pipeline</h3>
+            <p>The core challenge was efficiently processing large batches of multispectral imagery. Each drone flight produces hundreds of images across multiple spectral bands (RGB, NIR, Red Edge). I designed a pipeline that:</p>
+            <ul>
+                <li>Ingests raw imagery and metadata</li>
+                <li>Calibrates spectral bands using reference targets</li>
+                <li>Calculates vegetation indices and water quality metrics</li>
+                <li>Aggregates results across time series</li>
+                <li>Generates visualizations and exportable reports</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Impact</h3>
+            <p>DroneWQ has been used by environmental researchers to analyze water quality in lakes and reservoirs. The 97% reduction in processing time means researchers can analyze more datasets, run more experiments, and spend their time on insights rather than manual data wrangling.</p>
+            
+            <p>The PyPI package deployment makes the core algorithms reusable for other research groups, extending the project's impact beyond our immediate team.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Technical Challenges</h3>
+            <ul>
+                <li><strong>Performance Optimization:</strong> Processing 1000+ images efficiently required careful memory management and parallel processing</li>
+                <li><strong>Cross-Platform Compatibility:</strong> Ensuring the Electron app worked smoothly on Windows, macOS, and Linux</li>
+                <li><strong>API Design:</strong> Creating a clean, intuitive Flask API that the frontend could easily consume</li>
+                <li><strong>Error Handling:</strong> Robust error handling for corrupted images, missing metadata, and network failures</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Lessons Learned</h3>
+            <ul>
+                <li>The importance of clean API design—well-documented endpoints make frontend integration smooth</li>
+                <li>Accessibility should be built in from the start, not added as an afterthought</li>
+                <li>Package distribution (PyPI) makes code reusable and increases project impact</li>
+                <li>User feedback is critical—researchers had specific workflow needs we hadn't anticipated</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+    </footer>
+</body>
+</html>

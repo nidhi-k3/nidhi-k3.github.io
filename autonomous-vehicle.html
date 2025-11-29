@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous Navigation Robot | Nidhi Khiantani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">NIDHI KHIANTANI</a>
+            <div class="nav-links">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#work">WORK</a>
+                <a href="resume.html">RESUME</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <a href="index.html#work" class="back-link">← Back to Projects</a>
+            <h1>Autonomous Navigation Robot</h1>
+            <p class="subtitle">Indoor autonomous vehicle with LiDAR, RGB-D camera, and real-time obstacle detection</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Role</div>
+                    <div class="meta-value">Hardware Engineer Intern</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Organization</div>
+                    <div class="meta-value">Autonomous Vehicle Lab, NC A&T</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Timeline</div>
+                    <div class="meta-value">April 2025 - July 2025</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-content">
+        <div class="project-section">
+            <h3>Project Overview</h3>
+            <p>I developed an embedded autonomous ground robot capable of indoor navigation through object detection and obstacle avoidance. The system integrates multiple sensors—2D LiDAR, RGB-D camera, and IMU—with an NVIDIA Jetson AGX Xavier for high-level perception and an Arduino Mega for low-level motor control.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Hardware Integration</h3>
+            <ul>
+                <li><strong>Compute Platform:</strong> NVIDIA Jetson AGX Xavier running ROS2 (Robot Operating System)</li>
+                <li><strong>Sensors:</strong> 2D RPLIDAR A3 (360° laser scanner), Intel RealSense D455 RGB-D camera, BNO055 IMU</li>
+                <li><strong>Actuation:</strong> Arduino Mega 2560 interfaced with dual 550 RPM DC motors via dual H-bridge motor driver</li>
+                <li><strong>Power System:</strong> Dual battery configuration—6-12V for motors, 12V/5V for Jetson/Arduino</li>
+                <li><strong>Chassis:</strong> Differential drive with rear DC motors and front passive casters</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Software & Perception Pipeline</h3>
+            <p>I implemented a real-time sensor fusion pipeline that processes LiDAR point clouds and RGB camera data for obstacle avoidance and lane following with sub-100ms latency.</p>
+            
+            <p><strong>Computer Vision:</strong> I collected and manually annotated 3,200+ images to fine-tune the YOLOP (You Only Look Once for Panoptic Driving Perception) model for indoor navigation, achieving 92% accuracy in lane segmentation and drivable area detection.</p>
+            
+            <p><strong>Control Architecture:</strong> The Jetson runs perception algorithms and publishes velocity commands via ROS2 topics. The Arduino subscribes to /cmd_vel, converts commands into PWM signals (for speed) and digital direction signals, and drives the H-bridge motor controller.</p>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="images/vehicle-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="project-section">
+            <h3>Technical Challenges</h3>
+            <ul>
+                <li><strong>Sensor Calibration:</strong> Performed intrinsic and extrinsic calibration for camera-LiDAR alignment to ensure accurate depth measurements</li>
+                <li><strong>Real-Time Performance:</strong> Optimized perception pipeline to maintain <100ms latency while running YOLOv5 inference on Jetson GPU</li>
+                <li><strong>Motor Control:</strong> Implemented differential drive kinematics, tuning PWM duty cycles to achieve smooth turns and straight-line motion</li>
+                <li><strong>Data Pipeline:</strong> Built automated data collection and labeling workflow for training dataset</li>
+            </ul>
+        </div>
+
+        <div class="image-grid">
+            <img src="images/vehicle-setup.jpg" alt="Robot hardware setup">
+            <img src="images/vehicle-sensors.jpg" alt="Sensor integration">
+            <img src="images/vehicle-testing.jpg" alt="Testing environment">
+        </div>
+
+        <div class="project-section">
+            <h3>System Architecture</h3>
+            <p>The robot uses a layered architecture:</p>
+            <ul>
+                <li><strong>Perception Layer (Jetson):</strong> Runs YOLOP for object detection, processes LiDAR scans, fuses sensor data</li>
+                <li><strong>Decision Layer (Jetson):</strong> Implements obstacle avoidance logic and path planning</li>
+                <li><strong>Control Layer (Arduino):</strong> Converts high-level velocity commands to motor PWM signals</li>
+                <li><strong>Actuation Layer (H-Bridge):</strong> Amplifies control signals to drive DC motors</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Key Learnings</h3>
+            <ul>
+                <li>Gained hands-on experience with ROS2, understanding publish-subscribe architecture and inter-node communication</li>
+                <li>Learned the importance of proper sensor mounting and vibration isolation for clean data</li>
+                <li>Developed skills in embedded systems debugging—oscilloscope usage, logic analyzer for I²C/PWM signals</li>
+                <li>Understood trade-offs between perception accuracy and real-time performance</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Results</h3>
+            <p>The final system successfully navigates indoor hallways, detects and avoids obstacles in real-time, and follows lane markings with 92% detection accuracy. The project demonstrated the feasibility of low-cost autonomous navigation using commodity hardware and open-source software.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+    </footer>
+</body>
+</html>

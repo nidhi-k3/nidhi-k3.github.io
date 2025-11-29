@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchamatic IoT Drink Maker | Nidhi Khiantani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">NIDHI KHIANTANI</a>
+            <div class="nav-links">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#work">WORK</a>
+                <a href="resume.html">RESUME</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <a href="index.html#work" class="back-link">← Back to Projects</a>
+            <h1>Matchamatic IoT Drink Maker</h1>
+            <p class="subtitle">Automated matcha preparation system reducing drink-making time from 15 minutes to 7 minutes</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Role</div>
+                    <div class="meta-value">Hardware & Software Engineer</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Course</div>
+                    <div class="meta-value">ECE 655: Full-Stack IoT Systems</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Team</div>
+                    <div class="meta-value">Maanvi Chawla, Nidhi Khiantani</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-content">
+        <div class="project-section">
+            <h3>The Problem</h3>
+            <p>Making a perfect matcha latte is time-consuming—15-20 minutes of soaking the whisk, sifting powder, whisking, frothing milk, and assembling ingredients. We wanted to automate the tedious parts while keeping the ritual enjoyable.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>The Solution</h3>
+            <p>Matchamatic is an ESP32-based automated drink dispensing system that controls peristaltic pumps for precise liquid dispensing and DC motors for whisking and frothing. Users select their preferences on a web dashboard, and the system handles the rest.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Hardware Design</h3>
+            <ul>
+                <li><strong>Microcontroller:</strong> ESP32 with Wi-Fi for web server hosting</li>
+                <li><strong>Motor Control:</strong> 4-channel relay module controlling peristaltic pumps; MOSFET voltage step-up circuit to drive dual DC motors</li>
+                <li><strong>Mechanical Design:</strong> 3D-printed motor mounts and whisk modules for precise positioning</li>
+                <li><strong>Power System:</strong> External power supplies for pumps and motors; regulated 5V for ESP32</li>
+                <li><strong>Enclosure:</strong> Custom wood housing with organized bottle storage</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Software Architecture</h3>
+            <p><strong>Backend:</strong> MicroPython-based web server running on ESP32, managing GPIO control logic for precise liquid dispensing and motor actuation</p>
+            
+            <p><strong>Frontend:</strong> Flask + HTML/CSS web dashboard where users select sweetness level and cold foam preferences</p>
+            
+            <p><strong>Control Logic:</strong> Timed pump activation for measured dispensing; motor speed control for whisking matcha and frothing cream</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Circuit Design & Power Management</h3>
+            <p>One of the key challenges was power management. The peristaltic pumps and DC motors required different voltage levels and higher current than the ESP32 could provide directly. I designed a MOSFET-based voltage step-up circuit to safely drive the motors while protecting the microcontroller.</p>
+            
+            <p>The 4-channel relay module acted as an isolation barrier, allowing low-power GPIO signals from the ESP32 to control high-current pump circuits.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Key Features</h3>
+            <ul>
+                <li>Automated dispensing of water, milk, cold foam, and syrup with timed precision</li>
+                <li>Dual motor system for whisking matcha and frothing cream</li>
+                <li>Web-based interface accessible via WiFi—no app installation needed</li>
+                <li>Modular design allowing easy maintenance and ingredient refills</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Development Process</h3>
+            <p>We started with breadboard prototyping to test pump flow rates and motor speeds. Once we validated the concept, we moved to a more permanent assembly with soldered connections and organized wiring.</p>
+            
+            <p>Testing revealed that cold foam pump performance was inconsistent—we ended up making it a semi-automated step where the user manually pours cream, and the system froths it. This taught me the importance of managing scope and focusing on what adds the most value.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Results</h3>
+            <p>The final system successfully reduced matcha preparation time by 50%, from 15 minutes to 7 minutes. The web interface made customization easy, and the automated dispensing was consistent and accurate.</p>
+            
+            <p>This project gave me hands-on experience with full-stack IoT development—from circuit design and motor control to web server programming and user interface design.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Future Improvements</h3>
+            <ul>
+                <li>Add refrigeration to keep milk and creamer cold</li>
+                <li>Implement weight sensors for matcha powder to dynamically adjust water/milk ratios</li>
+                <li>Develop a mobile app to avoid WiFi connectivity issues</li>
+                <li>Design a more stable whisking mechanism to reduce vibration</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+    </footer>
+</body>
+</html>

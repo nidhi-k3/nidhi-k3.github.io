@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Nidhi Khiantani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">NIDHI KHIANTANI</a>
+            <div class="nav-links">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#work">WORK</a>
+                <a href="resume.html">RESUME</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            <h1>Resume</h1>
+            <p class="subtitle">Hardware Engineer | Duke University Class of 2026</p>
+        </div>
+    </section>
+
+    <div class="project-content" style="max-width: 1000px;">
+        <div class="project-section" style="text-align: center; margin-bottom: 3rem;">
+            <a href="resume.pdf" download class="btn-primary" style="display: inline-block;">Download PDF Resume</a>
+        </div>
+
+        <div class="project-section">
+            <h3>Education</h3>
+            <p><strong>Duke University, Durham, NC</strong> | Expected May 2026<br>
+            Bachelor of Science in Computer Science and Theater Studies</p>
+            <p style="margin-top: 0.5rem; color: var(--text-gray);">Relevant Coursework: Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Technical Skills</h3>
+            <p><strong>Programming & Tools:</strong> Verilog, C/C++, Python (NumPy, Pandas, PyTorch), Java, R, Git, Google Cloud, Onshape, Figma, Flask, HTML/CSS, Node.js, Linux, MATLAB, Vivado</p>
+            <p><strong>Hardware & Embedded Systems:</strong> Arduino, ESP32, STM32, Raspberry Pi, FPGA (Nexys A7), PCB Design (KiCad), Soldering</p>
+            <p><strong>Protocols & Interfaces:</strong> I²C, SPI, UART, PWM</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Experience</h3>
+            
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Hardware Engineer Intern</strong> | Autonomous Vehicle Lab, A&T University | Apr 2025 - Jul 2025</p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Integrated Nvidia Jetson AGX Xavier with 2D LiDAR and Intel RealSense camera on a small-scale autonomous vehicle, interfacing Arduino Mega with dual 550 rpm DC motors via ROS2</li>
+                    <li>Implemented real-time sensor fusion pipeline processing LiDAR point clouds and RGB camera data for obstacle avoidance and lane following with <100ms latency</li>
+                    <li>Collected and annotated 3,000+ image dataset to fine-tune YOLOP model for indoor navigation, achieving 92% accuracy</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Backend and Software Engineer</strong> | DroneWQ Desktop App | Aug 2025 - Dec 2025</p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Built full-stack Python+Electron application processing 1000+ multispectral drone images for water analysis, reducing manual data processing time by 90%</li>
+                    <li>Engineered backend data pipeline with Flask APIs, implemented data-processing modules in Python, and deployed a PyPI package</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Data Science Intern</strong> | Hickey Lab: Pan-Organ Analysis of Spatial-omics | 2023 - 2024</p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Automated collection and analysis of 50+ human tissue spatial-omics datasets using Python scripts, reducing manual processing time by 80%</li>
+                    <li>Developed Gaussian mixture and KNN machine learning algorithms incorporating spatial framework of data, improving clustering accuracy by 20%</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Technical Manager</strong> | Duke Players | 2023 - Present</p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Directed technical operations and stage management for 3 productions, coordinating lighting, sound, and set design</li>
+                    <li>Developed and launched website (dukeplayers.com), increasing show attendance and improving marketing</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Founder and Director</strong> | Step To Success Tutoring Program | Aug 2020 - Present</p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Founded and scaled community tutoring program from 0 to 30 tutors serving 180+ students across Asheboro, NC</li>
+                    <li>Developed curriculum of 50+ resources and coordinated technology access for low-income students</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h3>Featured Projects</h3>
+            
+            <div style="margin-bottom: 2rem;">
+                <p><strong>WavGuard Smart Wakeboard</strong></p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Engineered ESP32-based smart wakeboard providing real-time LED feedback on balance, implemented ratio-based logic algorithm</li>
+                    <li>Integrated 8 FSR pressure sensors and BNO055 IMU; created custom PCB in KiCad to consolidate 16+ sensor connections</li>
+                    <li>Validated using Onshape FEA tools to perform force analysis and verify sensor readings</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>Matchamatic IoT Drink Maker</strong></p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Engineered ESP32-based automated matcha system with 4-channel relay module controlling peristaltic pumps and DC motors, reducing drink preparation time by 50%</li>
+                    <li>Designed MOSFET voltage step-up circuit to drive dual DC motors for matcha whisking and cold foam frothing</li>
+                    <li>Developed MicroPython-based web server with Flask for recipe customization</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <p><strong>CPU-Controlled Ice Cream Topping Machine</strong></p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Architected five-stage pipelined 32-bit CPU in Verilog, deployed on Nexys A7 FPGA board with 25MHz clock frequency</li>
+                    <li>Programmed finite state machine for motor control via PWM signals to actuate physical toppings dispenser</li>
+                    <li>Engineered custom order programming interface using 9-button encoder for automated topping selection</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-section" style="text-align: center;">
+            <p><strong>Contact:</strong> nidhi.khiantani@duke.edu | (336) 964-0090<br>
+            <a href="https://linkedin.com/in/nidhi-khiantani" target="_blank">linkedin.com/in/nidhi-khiantani</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+    </footer>
+</body>
+</html>

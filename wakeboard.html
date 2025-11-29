@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WavGuard Smart Wakeboard | Nidhi Khiantani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">NIDHI KHIANTANI</a>
+            <div class="nav-links">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#work">WORK</a>
+                <a href="resume.html">RESUME</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <a href="index.html#work" class="back-link">← Back to Projects</a>
+            <h1>WavGuard Smart Wakeboard</h1>
+            <p class="subtitle">Real-time LED feedback system helping beginner wakeboarders master balance on the water</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Role</div>
+                    <div class="meta-value">Hardware Engineer, PCB Designer</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Course</div>
+                    <div class="meta-value">Product Design (Extreme Environments)</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Timeline</div>
+                    <div class="meta-value">4 months</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Team Size</div>
+                    <div class="meta-value">5 members</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-content">
+        <div class="project-section">
+            <h3>The Challenge</h3>
+            <p>Learning to wakeboard is tough—beginners struggle to distribute their weight correctly while being towed across water. Without real-time feedback, it's hard to know if you're leaning too far forward, backward, or to one side. We set out to create a smart wakeboard that gives immediate visual feedback to help learners improve their balance.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>My Contributions</h3>
+            <ul>
+                <li><strong>PCB Design:</strong> Designed a custom PCB in KiCad to consolidate 16+ sensor connections, reducing wire clutter and improving waterproofing</li>
+                <li><strong>Sensor Integration:</strong> Integrated 8 FSR (Force-Sensitive Resistor) pressure sensors and a BNO055 IMU to measure force distribution and board tilt</li>
+                <li><strong>Embedded Programming:</strong> Developed a ratio-based feedback algorithm on ESP32 to calculate pressure zones and drive individually addressable LED strips</li>
+                <li><strong>Mechanical Validation:</strong> Used Onshape FEA tools to perform force analysis, verifying sensor readings matched real-world pressure patterns</li>
+                <li><strong>Waterproofing:</strong> Implemented marine-grade sealant, RTV silicone, neoprene padding, and IP65-rated enclosures to protect electronics in water</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h3>Technical Details</h3>
+            <p><strong>Hardware Stack:</strong></p>
+            <ul>
+                <li>ESP32 microcontroller with Wi-Fi and Bluetooth</li>
+                <li>8x FSR pressure sensors embedded in wakeboard boots</li>
+                <li>BNO055 9-axis IMU for tilt sensing</li>
+                <li>Custom PCB with voltage regulation and sensor breakouts</li>
+                <li>Waterproof individually addressable LED strips (36 inches)</li>
+                <li>IP65 waterproof ABS enclosure with O-ring seal</li>
+            </ul>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Real-time LED feedback showing weight distribution across three zones</li>
+                <li>Tilt-pressure agreement logic to improve accuracy</li>
+                <li>Embedded wiring through Dremeled channels for clean routing</li>
+                <li>Threaded brass inserts for secure, repeatable assembly</li>
+            </ul>
+        </div>
+
+        <div class="image-grid">
+            <img src="images/wakeboard-electronics.jpg" alt="Electronics assembly">
+            <img src="images/wakeboard-sensors.jpg" alt="Sensor installation">
+            <img src="images/wakeboard-final.jpg" alt="Final product">
+        </div>
+
+        <div class="project-section">
+            <h3>Design Process</h3>
+            <p>We iterated through multiple prototypes, testing waterproofing methods, sensor placement, and feedback algorithms. The biggest challenge was making the electronics survive in water—we learned the importance of proper sealing techniques and tested extensively in pools before attempting lake trials.</p>
+            
+            <p>The custom PCB was a major improvement from our breadboard prototype. It reduced assembly time, improved reliability, and made the overall system much more compact and water-resistant.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Results & Impact</h3>
+            <p>Our final prototype successfully provided real-time balance feedback and survived multiple water tests. The LED system clearly indicated when users needed to shift weight, and early testers reported it helped them understand balance concepts faster than traditional verbal coaching.</p>
+            
+            <p>This project taught me the full hardware development cycle—from concept to CAD to PCB fabrication to real-world testing. Working in an extreme environment (water) pushed me to think critically about failure modes and robust design.</p>
+        </div>
+
+        <div class="project-section">
+            <h3>Lessons Learned</h3>
+            <ul>
+                <li>Waterproofing is harder than it looks—test early and often</li>
+                <li>Custom PCBs dramatically improve product quality and reliability</li>
+                <li>FEA validation helps catch design issues before physical testing</li>
+                <li>User feedback is essential—what makes sense on paper doesn't always work in practice</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+    </footer>
+</body>
+</html>
