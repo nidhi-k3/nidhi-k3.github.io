@@ -10,8 +10,10 @@
     --accent-blue: #1a4d8f;
     --text-dark: #1a1a1a;
     --text-gray: #666;
-    --bg-light: #fafafa;
+    --bg-light: #fef5f1;
+    --bg-peach: #ffe8dc;
     --white: #ffffff;
+    --soft-pink: #ffd4c4;
 }
 
 body {
@@ -94,7 +96,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 6rem 2rem 4rem;
-    background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 50%, #ffd4c4 100%);
     position: relative;
 }
 
@@ -105,7 +107,7 @@ nav {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--duke-blue), var(--accent-blue));
+    background: linear-gradient(90deg, #ffd4c4, #ffb8a0);
 }
 
 .hero-content {
@@ -172,7 +174,7 @@ nav {
 
 /* About Section */
 .about {
-    background: var(--bg-light);
+    background: var(--bg-peach);
     position: relative;
 }
 
@@ -184,7 +186,7 @@ nav {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: var(--duke-blue);
+    background: var(--soft-pink);
     border-radius: 2px;
 }
 
@@ -236,6 +238,12 @@ nav {
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 1.5rem;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    border-color: var(--soft-pink);
 }
 
 .project-image img {
@@ -322,9 +330,9 @@ footer p {
     min-height: 50vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 100%);
     padding: 8rem 2rem 4rem;
-    border-bottom: 3px solid var(--duke-blue);
+    border-bottom: 3px solid var(--soft-pink);
 }
 
 .project-hero-content {
