@@ -44,7 +44,7 @@
     <div class="project-content">
         <div class="project-section">
             <h3>Project Overview</h3>
-            <p>I developed an embedded autonomous ground robot capable of indoor navigation through object detection and obstacle avoidance. The system integrates multiple sensors—2D LiDAR, RGB-D camera, and IMU—with an NVIDIA Jetson AGX Xavier for high-level perception and an Arduino Mega for low-level motor control.</p>
+            <p>We developed an embedded autonomous ground robot capable of indoor navigation through object detection and obstacle avoidance. The system integrates multiple sensors: 2D LiDAR, RGB-D camera, and IMU, with an NVIDIA Jetson AGX Xavier for high-level perception and an Arduino Mega for low-level motor control.</p>
         </div>
 
         <div class="project-section">
@@ -60,7 +60,7 @@
 
         <div class="project-section">
             <h3>Software & Perception Pipeline</h3>
-            <p>I implemented a real-time sensor fusion pipeline that processes LiDAR point clouds and RGB camera data for obstacle avoidance and lane following with sub-100ms latency.</p>
+            <p>We implemented a real-time sensor fusion pipeline that processes LiDAR point clouds and RGB camera data for obstacle avoidance and lane following with sub-100ms latency.</p>
             
             <p><strong>Computer Vision:</strong> I collected and manually annotated 3,200+ images to fine-tune the YOLOP (You Only Look Once for Panoptic Driving Perception) model for indoor navigation, achieving 92% accuracy in lane segmentation and drivable area detection.</p>
             
@@ -79,8 +79,6 @@
             <ul>
                 <li><strong>Sensor Calibration:</strong> Performed intrinsic and extrinsic calibration for camera-LiDAR alignment to ensure accurate depth measurements</li>
                 <li><strong>Real-Time Performance:</strong> Optimized perception pipeline to maintain <100ms latency while running YOLOv5 inference on Jetson GPU</li>
-                <li><strong>Motor Control:</strong> Implemented differential drive kinematics, tuning PWM duty cycles to achieve smooth turns and straight-line motion</li>
-                <li><strong>Data Pipeline:</strong> Built automated data collection and labeling workflow for training dataset</li>
             </ul>
         </div>
 
@@ -106,19 +104,19 @@
             <ul>
                 <li>Gained hands-on experience with ROS2, understanding publish-subscribe architecture and inter-node communication</li>
                 <li>Learned the importance of proper sensor mounting and vibration isolation for clean data</li>
-                <li>Developed skills in embedded systems debugging—oscilloscope usage, logic analyzer for I²C/PWM signals</li>
+                <li>Developed skills in embedded systems debugging: oscilloscope usage, logic analyzer for I²C/PWM signals</li>
                 <li>Understood trade-offs between perception accuracy and real-time performance</li>
             </ul>
         </div>
 
         <div class="project-section">
             <h3>Results</h3>
-            <p>The final system successfully navigates indoor hallways, detects and avoids obstacles in real-time, and follows lane markings with 92% detection accuracy. The project demonstrated the feasibility of low-cost autonomous navigation using commodity hardware and open-source software.</p>
+            <p>The final system navigates the indoor track, detects and avoids obstacles in real-time, and follows lane markings. The project demonstrated the feasibility of low-cost autonomous navigation using commodity hardware and open-source software.</p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+        <p>&copy; 2025 Nidhi Khiantani. Built with lots of patience with Jetsons.</p>
     </footer>
 </body>
 </html>
