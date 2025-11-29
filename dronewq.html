@@ -35,7 +35,7 @@
                 </div>
                 <div class="meta-item">
                     <div class="meta-label">Team</div>
-                    <div class="meta-value">Artemis (Frontend), Nidhi (Backend)</div>
+                    <div class="meta-value">3 members</div>
                 </div>
             </div>
         </div>
@@ -50,11 +50,11 @@
         <div class="project-section">
             <h3>My Contributions</h3>
             <ul>
-                <li><strong>Backend Architecture:</strong> Engineered the Flask API backend with RESTful endpoints for image upload, processing, and results retrieval</li>
-                <li><strong>Data Pipeline:</strong> Implemented Python modules for multispectral image analysis, calculating chlorophyll concentration, turbidity, and other water quality indicators</li>
-                <li><strong>Package Distribution:</strong> Deployed a PyPI package to make core processing modules reusable across research projects</li>
+                <li><strong>Code Refactoring:</strong> Restructured existing procedural codebase (<a href="https://github.com/aewindle110/DroneWQ" target="_blank">DroneWQ repository</a>) into object-oriented design, improving modularity and maintainability in preparation for Journal of Open Source Software (JOSS) submission</li>
+                <li><strong>Backend Architecture:</strong> Engineered Flask API backend with RESTful endpoints for image upload, processing, and results retrieval</li>
+                <li><strong>Package Distribution:</strong> Deployed PyPI package to make core processing modules reusable across research projects</li>
                 <li><strong>Accessibility Features:</strong> Integrated Google Gemini API to generate AI-powered plot descriptions for screen reader accessibility</li>
-                <li><strong>Keyboard Navigation:</strong> Implemented comprehensive keyboard shortcuts and focus management for improved accessibility</li>
+                <li><strong>Keyboard Navigation:</strong> Implemented comprehensive keyboard shortcuts and focus management for improved accessibility compliance</li>
             </ul>
         </div>
 
@@ -71,7 +71,7 @@
             <h3>Key Features</h3>
             <ul>
                 <li>Batch processing of multispectral drone imagery</li>
-                <li>Automated calculation of environmental metrics (chlorophyll-a, turbidity, temperature)</li>
+                <li>Automated calculation of environmental metrics (chlorophyll-a, turbidity)</li>
                 <li>Interactive data visualization with plot export</li>
                 <li>AI-generated plot descriptions for accessibility compliance</li>
                 <li>Comprehensive keyboard navigation (Tab, Arrow keys, Enter, Escape)</li>
@@ -88,13 +88,14 @@
 
         <div class="project-section">
             <h3>Data Processing Pipeline</h3>
-            <p>The core challenge was efficiently processing large batches of multispectral imagery. Each drone flight produces hundreds of images across multiple spectral bands (RGB, NIR, Red Edge). I designed a pipeline that:</p>
+            <p>The core challenge was efficiently processing large batches of multispectral imagery from MicaSense RedEdge-MX sensors. Each drone flight produces hundreds of images across 5 spectral bands (blue, green, red, red edge, NIR). We refactored the codebase into an object-oriented architecture that:</p>
             <ul>
-                <li>Ingests raw imagery and metadata</li>
-                <li>Calibrates spectral bands using reference targets</li>
-                <li>Calculates vegetation indices and water quality metrics</li>
-                <li>Aggregates results across time series</li>
-                <li>Generates visualizations and exportable reports</li>
+                <li>Processes raw imagery to remote sensing reflectance (Rrs) using Hedley glint removal and DLS downwelling irradiance</li>
+                <li>Applies pixel masking with NIR thresholding to filter glint and invalid pixels</li>
+                <li>Calculates chlorophyll-a concentrations using NASA's blended Hu OCX algorithm</li>
+                <li>Computes total suspended matter (TSM) using the Nechad algorithm</li>
+                <li>Georeferences images based on GPS, altitude, and sensor orientation (yaw, pitch, roll)</li>
+                <li>Mosaics georeferenced images into cohesive maps of water quality parameters</li>
             </ul>
         </div>
 
@@ -109,7 +110,6 @@
             <h3>Technical Challenges</h3>
             <ul>
                 <li><strong>Performance Optimization:</strong> Processing 1000+ images efficiently required careful memory management and parallel processing</li>
-                <li><strong>Cross-Platform Compatibility:</strong> Ensuring the Electron app worked smoothly on Windows, macOS, and Linux</li>
                 <li><strong>API Design:</strong> Creating a clean, intuitive Flask API that the frontend could easily consume</li>
                 <li><strong>Error Handling:</strong> Robust error handling for corrupted images, missing metadata, and network failures</li>
             </ul>
@@ -118,16 +118,16 @@
         <div class="project-section">
             <h3>Lessons Learned</h3>
             <ul>
-                <li>The importance of clean API design—well-documented endpoints make frontend integration smooth</li>
+                <li>The importance of clean API design. Well-documented endpoints make frontend integration smooth</li>
                 <li>Accessibility should be built in from the start, not added as an afterthought</li>
                 <li>Package distribution (PyPI) makes code reusable and increases project impact</li>
-                <li>User feedback is critical—researchers had specific workflow needs we hadn't anticipated</li>
+                <li>User feedback is critical... researchers had specific workflow needs we hadn't anticipated</li>
             </ul>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Nidhi Khiantani. Built with curiosity and caffeine.</p>
+        <p>&copy; 2025 Nidhi Khiantani. Built with much communication on Discord.</p>
     </footer>
 </body>
 </html>
