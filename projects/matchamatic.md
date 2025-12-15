@@ -97,8 +97,6 @@ I built a 5-page interface (HTML/CSS/JavaScript) hosted on the ESP32:
 ![Web Interface - Order Review](../images/matchamatic/ui-review.png)
 *Review screen before starting*
 
-**Tricky part:** MicroPython is single-threaded, so I used JavaScript async requests to trigger the pump/motor sequence while keeping the loading page responsive.
-
 ---
 
 ## How It Works
