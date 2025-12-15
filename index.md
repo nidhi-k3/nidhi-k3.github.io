@@ -12,17 +12,14 @@ title: Home
 
 <div class="hero">
   <h1>Nidhi Khiantani</h1>
-  <p class="subtitle"> Duke University '26</p>
+  <p class="subtitle">Duke University '26</p>
   <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
-</div>
-
-**Relevant Coursework:** Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math
-
-<div class="hero-buttons">
+  <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
+  
+  <div class="hero-buttons">
     <a href="path/to/your/resume.pdf" class="btn-primary" download>Download My Resume</a>
   </div>
 </div>
-
 ---
 <div id="about"></div>
 
@@ -137,24 +134,6 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
 **Robotics & Computer Vision:** LiDAR, RealSense RGB-D Camera, YOLO, Sensor Fusion, Dataset Creation
 
 ---
-<div id="contact"></div>
-## Skills
-
-**Hardware Design & Testing:** PCB Design (KiCad), FPGA Development (Vivado), Circuit Design, Oscilloscope, Logic Analyzer, Multimeter, Soldering, Hardware Debugging, Testing & Validation, Signal Processing
-
-**Embedded Systems & Firmware:** Arduino, ESP32 (S2/S3), STM32, Raspberry Pi, Jetson AGX Xavier, Nexys A7 FPGA
-
-**Protocols & Interfaces:** I²C, SPI, UART, PWM, Memory-Mapped I/O
-
-**HDL & Programming:** Verilog, C/C++, Python (NumPy, Pandas, PyTorch), Java, MATLAB, MicroPython, Assembly (MIPS)
-
-**Software & Development Tools:** Git, Linux, ROS2, Flask, Node.js, HTML/CSS, Google Cloud, Electron, Docker
-
-**CAD & Design:** Figma, Onshape, KiCad, 3D Printing
-
-**Robotics & Computer Vision:** LiDAR, RealSense RGB-D Camera, YOLO, Sensor Fusion, Dataset Creation
-
----  
 <div id="contact"></div>
 
 ## Contact
