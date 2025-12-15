@@ -1,6 +1,6 @@
 ---
 layout: project
-title: WavGuard - Wakeboard Balance Training System
+title: Autonomous Navigation Robot
 ---
 
 # Autonomous Indoor Navigation Robot
