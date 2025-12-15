@@ -173,4 +173,4 @@ The most impactful upgrade would be the load cell for adaptive ingredient ratios
 
 ---
 
-[← Back to Portfolio](../README.md)
+[← Back to Portfolio](/)
