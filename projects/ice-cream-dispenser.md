@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
 # Automated Ice Cream Topping Dispenser
 
 ![Ice Cream Dispenser - Full Setup](../images/ice-cream/full-setup.jpg)
