@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
 # DroneWQ: Desktop Application for Water Quality Analysis from Drone Imagery
 
 ![DroneWQ Upload Interface](../images/dronewq/upload-screen.png)
