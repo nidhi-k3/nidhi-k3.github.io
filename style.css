@@ -468,3 +468,34 @@ body > hr {
   display: inline-block;
   margin-right: 0.5rem;
 }
+
+/* ===== NAVIGATION BAR ===== */
+nav.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-lg) 0;
+  margin-bottom: var(--spacing-xl);
+  border-bottom: 1px solid var(--border-color);
+  gap: var(--spacing-lg);
+}
+
+nav.main-nav a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+nav.main-nav a:hover {
+  color: var(--primary-navy);
+  border-bottom-color: var(--secondary-gold);
+}
+
+nav.main-nav a.active {
+  color: var(--primary-navy);
+  border-bottom-color: var(--secondary-gold);
+}
