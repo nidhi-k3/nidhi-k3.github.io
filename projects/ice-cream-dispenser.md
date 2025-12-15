@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+---
+layout: project
+title: Ice Cream Dispenser - FPGA-Controlled System
+---
 
 # Automated Ice Cream Topping Dispenser
 
