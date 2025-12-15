@@ -72,7 +72,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
     <img src="images/autonomous-vehicle/robot-front.jpg" alt="Autonomous Robot" class="project-thumbnail">
   </a>
   <div class="project-card-content">
-    <h3><a href="projects/autonomous-vehicle.md">Autonomous Navigation Robot</a></h3>
+    <h3><a href="projects/autonomous-vehicle">Autonomous Navigation Robot</a></h3>
     <p>Ground-up robot build with LiDAR, RGB camera, and IMU. </p>
     <div class="project-tech">
       <span class="tech-tag">ROS</span>
@@ -88,7 +88,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
     <img src="images/dronewq/results-dashboard.png" alt="DroneWQ" class="project-thumbnail">
   </a>
   <div class="project-card-content">
-    <h3><a href="projects/dronewq.md">DroneWQ</a></h3>
+    <h3><a href="projects/dronewq">DroneWQ</a></h3>
     <p>Electron desktop app for water quality analysis from drone imagery.</p>
     <div class="project-tech">
       <span class="tech-tag">Python</span>
