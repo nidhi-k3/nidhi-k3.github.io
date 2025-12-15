@@ -1,77 +1,105 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
-## Nidhi Khiantani
-
-**Computer Science (ECE Focus) + Theater Studies @ Duke University** | Graduating May 2026  
-Seeking Hardware Engineering Opportunities
-
-[LinkedIn](https://www.linkedin.com/in/nidhi-khiantani/) 
-[Email](ndk9@duke.edu) 
-
-Relevant Coursework: Digital Systems (ECE 350), Full-Stack IoT (ECE 655), Data Structures & Algorithms, Computer Architecture, Product Design
+<div class="hero">
+  <h1>Nidhi Khiantani</h1>
+  <p class="subtitle"> Duke University '26</p>
+  <p>Computer Science (ECE Focus) + Theater Studies </p>
+</div>
 
 ---
 
 ## About Me
 
-Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke ('26) and looking for hardware engineering opportunities where I can design, test and optimize real systems. 
+I'm a Duke University student graduating in May 2026 with a B.S. in Computer Science (ECE focus) and Theater Studies. I'm actively seeking **hardware engineering roles**, particularly in FPGA and design engineering.
 
-I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major.
+My journey started in pure CS, but I discovered my true passion lies in **physically building things** - from custom PCBs and ESP32 systems to sensor arrays and LED feedback systems. I love the challenge of bridging hardware and software to create tangible, real-world solutions.
 
-I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and LED feedback systems. I've also executed test plans, validated hardware performance under real-world conditions, and troubleshot hardware issues.
+**What I'm looking for:** Opportunities where I can design circuits, write embedded firmware, debug hardware systems, and bring ideas from breadboard to production.
 
 ---
 
 ## Featured Projects
 
-### [WavGuard: Wakeboard Balance Training System](projects/wavguard.md)
-**Live visual feedback system with FSR sensors, IMU, and addressable LEDs on ESP32**
+<div class="project-grid">
 
-[Read more →](projects/wavguard.md)
+<div class="project-card-grid">
+  <a href="projects/wavguard.md">
+    <img src="images/wavguard/final-product.jpg" alt="WavGuard Wakeboard" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/wavguard.md">WavGuard</a></h3>
+    <p>Wakeboard balance training system with FSR sensors, IMU, and real-time LED feedback. Custom PCB + ratio-based tilt-pressure algorithms.</p>
+    <div class="project-tech">
+      <span class="tech-tag">ESP32</span>
+      <span class="tech-tag">PCB Design</span>
+      <span class="tech-tag">FSR Sensors</span>
+      <span class="tech-tag">IMU</span>
+    </div>
+  </div>
+</div>
 
----
+<div class="project-card-grid">
+  <a href="projects/ice-cream-dispenser.md">
+    <img src="images/ice-cream/full-setup.jpg" alt="Ice Cream Dispenser" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/ice-cream-dispenser.md">Ice Cream Dispenser</a></h3>
+    <p>Custom 32-bit RISC CPU in Verilog controlling automated topping dispenser via memory-mapped I/O. PWM servo control + VGA display.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Verilog</span>
+      <span class="tech-tag">FPGA</span>
+      <span class="tech-tag">Assembly</span>
+      <span class="tech-tag">PWM</span>
+    </div>
+  </div>
+</div>
 
-### [Automated Ice Cream Topping Dispenser](projects/ice-cream-dispenser.md)
-**Custom 32-bit RISC CPU controlling physical hardware on FPGA**
+<div class="project-card-grid">
+  <a href="projects/matchamatic.md">
+    <img src="images/matchamatic/front.jpg" alt="Matchamatic" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/matchamatic.md">Matchamatic</a></h3>
+    <p>ESP32-powered automated matcha latte maker with calibrated peristaltic pumps, MOSFET motor control, and web interface.</p>
+    <div class="project-tech">
+      <span class="tech-tag">ESP32</span>
+      <span class="tech-tag">Motor Control</span>
+      <span class="tech-tag">Web Server</span>
+      <span class="tech-tag">Calibration</span>
+    </div>
+  </div>
+</div>
 
-[Read more →](projects/ice-cream-dispenser.md)
+<div class="project-card-grid">
+  <a href="projects/autonomous-vehicle.md">
+    <img src="images/autonomous-vehicle/robot-front.jpg" alt="Autonomous Robot" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/autonomous-vehicle.md">Autonomous Navigation Robot</a></h3>
+    <p>Ground-up robot build with LiDAR, RGB-D camera, IMU. Created 4,000-image dataset for YOLO-P indoor navigation model.</p>
+    <div class="project-tech">
+      <span class="tech-tag">ROS</span>
+      <span class="tech-tag">LiDAR</span>
+      <span class="tech-tag">Computer Vision</span>
+      <span class="tech-tag">Arduino</span>
+    </div>
+  </div>
+</div>
 
----
+<div class="project-card-grid">
+  <a href="projects/dronewq.md">
+    <img src="images/dronewq/results-dashboard.png" alt="DroneWQ" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/dronewq.md">DroneWQ</a></h3>
+    <p>Electron desktop app for water quality analysis from drone imagery. Refactored research code to production, published to PyPI.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Flask</span>
+      <span class="tech-tag">Electron</span>
+      <span class="tech-tag">GDAL</span>
+    </div>
+  </div>
+</div>
 
-### [Matchamatic: Automated Matcha Latte Maker](projects/matchamatic.md)
-**IoT beverage dispensing system with ESP32 and web interface**
-
-[Read more →](projects/matchamatic.md)
-
----
-
-### [Autonomous Indoor Navigation Robot](projects/autonomous-vehicle.md)
-**ROS-based robot with LiDAR, RGB-D camera, and custom YOLO-P dataset**
-
-[Read more →](projects/autonomous-vehicle.md)
-
----
-
-### [DroneWQ: Water Quality Analysis Desktop App](projects/dronewq.md)
-**Electron desktop application for analyzing multispectral drone imagery**
-
-[Read more →](projects/dronewq.md)
-
----
-
-## Technical Skills
-
-**Hardware Design**  
-FPGA (Verilog/Vivado) • Digital Logic • PCB Design (KiCAD) • Custom CPU Architecture • PWM • I²C • Motor Control • Power Electronics • MOSFET Circuits • Relay Control
-
-**Embedded Systems**  
-Arduino • ESP32 • ARM Microcontrollers • Assembly Programming • Memory-Mapped I/O • Sensor Integration (IMU, FSR, LiDAR, RGB-D) • Real-time Systems
-
-**Robotics & Computer Vision**  
-ROS • Sensor Fusion • LiDAR Processing • Computer Vision (YOLOv5, TensorRT) • Dataset Creation • Differential Drive Kinematics • Autonomous Navigation
-
-**Software Development**  
-Python • C • JavaScript • Flask • Git • Linux • Docker • PyPI Packaging • API Design • SQLite
-
-**Hardware Tools & Fabrication**  
-Oscilloscope • Multimeter • Soldering • 3D Printing • Laser Cutting • Vivado • Waterproofing & Enclosure Design
+</div>
