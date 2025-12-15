@@ -441,3 +441,29 @@ body > hr {
   margin: var(--spacing-2xl) 0;
   opacity: 0.5;
 }
+
+/* ===== PROJECT PAGE NAVIGATION ===== */
+.project-nav {
+  padding: var(--spacing-lg) 0;
+  margin-bottom: var(--spacing-lg);
+}
+
+.back-link {
+  color: var(--text-gray);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--primary-navy);
+  transform: translateX(-4px);
+  display: inline-block;
+}
+
+.back-link::before {
+  content: '';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
