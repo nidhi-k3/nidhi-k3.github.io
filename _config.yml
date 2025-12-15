@@ -1,0 +1,37 @@
+title: Nidhi Khiantani - Hardware Engineering Portfolio
+description: Computer Science & ECE student at Duke University specializing in hardware engineering
+url: https://nidhi-k3.github.io
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .gitignore
+  - README-old.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Collections (optional - for future organization)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"
