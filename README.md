@@ -1,18 +1,21 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+---
+layout: default
+title: Home
+---
 
 <div class="hero">
   <h1>Nidhi Khiantani</h1>
   <p class="subtitle"> Duke University '26</p>
-  <p>Computer Science (ECE Focus) + Theater Studies </p>
+  <p>Computer Science (ECE Focus) + Theater Studies</p>
 </div>
 
 ---
 
 ## About Me
 
-I'm a Duke University student graduating in May 2026 with a B.S. in Computer Science (ECE focus) and Theater Studies. I'm actively seeking **hardware engineering roles**, particularly in FPGA and design engineering.
+I'm a Duke University student graduating in May 2026 with a B.S. in Computer Science (ECE focus) and Theater Studies. I'm actively seeking **hardware engineering roles**.
 
-My journey started in pure CS, but I discovered my true passion lies in **physically building things** - from custom PCBs and ESP32 systems to sensor arrays and LED feedback systems. I love the challenge of bridging hardware and software to create tangible, real-world solutions.
+My journey started in pure CS, but I discovered my true passion lies in **physically building things**, from custom PCBs and ESP32 systems to sensor arrays and LED feedback systems. I love the challenge of bridging hardware and software to create tangible, real-world solutions.
 
 **What I'm looking for:** Opportunities where I can design circuits, write embedded firmware, debug hardware systems, and bring ideas from breadboard to production.
 
