@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 # Nidhi Khiantani
 
 **Computer Science (ECE Focus) + Theater Studies @ Duke University** | Graduating May 2026  
