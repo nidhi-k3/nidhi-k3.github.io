@@ -7,11 +7,9 @@
 
 ## What We Built
 
-As part of a team of 5 in my Product Design class, we designed WavGuard - a live visual feedback system to help beginner wakeboarders learn how to balance on the water. The product features LED lights for instant pressure feedback and uses both Force-Sensitive Resistors (FSRs) and an IMU to verify proper technique. All components are fully padded for comfort, creating a safe and responsive training experience.
+In a team of 5, we designed WavGuard: a live visual feedback system to help beginner wakeboarders learn how to balance on the water. The product features LED lights for instant pressure feedback and uses both Force-Sensitive Resistors (FSRs) and an IMU to verify proper technique. All components are fully padded for comfort, creating a safe and responsive training experience.
 
 **Technologies:** ESP32, FSR pressure sensors, 6-axis IMU accelerometer, Waterproof WS2812B addressable LED strips, Custom PCB design (functional prototype), C++ (Arduino framework), IP65 waterproof enclosure
-
-**Timeline:** Fall 2025 | **Team size:** 5 people
 
 **Role:** Electronics and firmware - Designed sensor integration, implemented ratio-based tilt-pressure logic with training zones, developed LED feedback system, created custom PCB (functional but power issues prevented final integration)
 
@@ -21,7 +19,7 @@ As part of a team of 5 in my Product Design class, we designed WavGuard - a live
 
 Learning to wakeboard is hard. Beginners struggle with weight distribution. You need to keep your weight centered and balanced, but on the water, you can't see what you're doing wrong. Instructors can yell corrections, but by the time you hear them, you've already fallen.
 
-We wanted to give beginners **instant, real-time feedback** they could feel and see - LED lights that show exactly where their pressure is and whether it matches proper technique for the current board tilt.
+We wanted to give beginners **instant, real-time feedback** they could feel and see. LED lights that show exactly where their pressure is and whether it matches proper technique for the current board tilt.
 
 ---
 
@@ -187,9 +185,7 @@ Successfully created a working prototype that provides real-time balance feedbac
 
 **What worked:**
 - Ratio-based tilt-pressure algorithm successfully detected improper form
-- Three-zone training system (flat/edge/safety) provided progressive learning
 - LED feedback was visible and intuitive during testing
-- Custom PCB functioned correctly before power failure
 - IP65 enclosure protected electronics during water testing
 - FSR sensors provided accurate relative pressure readings
 - IMU tilt tracking was stable and responsive
