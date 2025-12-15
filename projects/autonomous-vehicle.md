@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 # Autonomous Indoor Navigation Robot
 
 ![Research Poster](../images/autonomous-vehicle/poster.jpg)
