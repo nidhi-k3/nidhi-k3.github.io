@@ -20,7 +20,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
 <div class="project-grid">
 
 <div class="project-card-grid">
-  <a href="projects/wavguard.md">
+  <a href="projects/wavguard">
     <img src="images/wavguard/final-product.jpg" alt="WavGuard Wakeboard" class="project-thumbnail">
   </a>
   <div class="project-card-content">
@@ -36,7 +36,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
 </div>
 
 <div class="project-card-grid">
-  <a href="projects/ice-cream-dispenser.md">
+  <a href="projects/ice-cream-dispenser">
     <img src="images/ice-cream/full-setup.jpg" alt="Ice Cream Dispenser" class="project-thumbnail">
   </a>
   <div class="project-card-content">
@@ -52,7 +52,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
 </div>
 
 <div class="project-card-grid">
-  <a href="projects/matchamatic.md">
+  <a href="projects/matchamatic">
     <img src="images/matchamatic/front.jpg" alt="Matchamatic" class="project-thumbnail">
   </a>
   <div class="project-card-content">
