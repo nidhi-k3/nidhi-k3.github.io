@@ -19,7 +19,7 @@ title: Home
 **Relevant Coursework:** Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math
 
 <div class="hero-buttons">
-    <a href="path/to/your/resume.pdf" class="btn-primary" download>Download Resume</a>
+    <a href="path/to/your/resume.pdf" class="btn-primary" download>Download My Resume</a>
   </div>
 </div>
 
