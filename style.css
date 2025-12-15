@@ -83,7 +83,7 @@ h1 + p {
 
 h2 {
   font-size: 1.875rem;
-  margin-top: var(--spacing-2xl);
+  margin-top: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
 }
 
@@ -302,7 +302,7 @@ hr {
 .hero {
   text-align: center;
   padding: var(--spacing-2xl) 0;
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .hero h1 {
