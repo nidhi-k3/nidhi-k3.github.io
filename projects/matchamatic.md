@@ -1,4 +1,6 @@
-# Matchamatic: Automated Matcha Latte Maker
+<link rel="stylesheet" type="text/css" href="style.css">
+
+# Matchamatic: Automated Matcha Maker
 
 ![Matchamatic Front View](../images/matchamatic/front.jpg)
 *Automated matcha latte dispensing system with laser-cut enclosure*
