@@ -2,19 +2,17 @@
 layout: default
 title: Home
 ---
-
 <div class="hero">
   <h1>Nidhi Khiantani</h1>
   <p class="subtitle"> Duke University '26</p>
   <p>Computer Science (ECE Focus) + Theater Studies</p>
 </div>
-
+---
 ## About Me
 
 Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke (‘26) and looking for hardware engineering opportunities where I can design, test and optimize real systems! I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major.I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and LED feedback systems. I’ve also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
 
 ---
-
 ## Featured Projects
 
 <div class="project-grid">
