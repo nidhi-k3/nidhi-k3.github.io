@@ -11,7 +11,7 @@ Relevant Coursework: Digital Systems (ECE 350), Full-Stack IoT (ECE 655), Data S
 
 ## About Me
 
-I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke ('26) and looking for hardware engineering opportunities where I can design, test and optimize real systems. 
+Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke ('26) and looking for hardware engineering opportunities where I can design, test and optimize real systems. 
 
 I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major.
 
@@ -24,22 +24,12 @@ I have designed and developed hardware products, including custom PCBs, microcon
 ### [WavGuard: Wakeboard Balance Training System](projects/wavguard.md)
 **Live visual feedback system with FSR sensors, IMU, and addressable LEDs on ESP32**
 
-Developed a training device for beginner wakeboarders featuring pressure-sensitive foot sensors, real-time tilt detection, and LED feedback. Implemented custom PCB design and "tilt-pressure agreement" algorithms to teach proper weight distribution and balance technique.
-
-**Tech:** ESP32, FSR sensors, BNO08x IMU, WS2812B addressable LEDs, Custom PCB  
-**Skills:** Sensor fusion, embedded programming, PCB design, waterproofing, user testing
-
 [Read more →](projects/wavguard.md)
 
 ---
 
 ### [Automated Ice Cream Topping Dispenser](projects/ice-cream-dispenser.md)
 **Custom 32-bit RISC CPU controlling physical hardware on FPGA**
-
-Built a 5-stage pipelined processor in Verilog that controls DC motors and servos to dispense ice cream toppings. Implemented memory-mapped I/O, PWM generation, and assembly programming.
-
-**Tech:** Verilog, FPGA (Nexys A7), Assembly, PWM, I²C, VGA, Relay control  
-**Skills:** Digital logic design, computer architecture, hardware debugging, state machines
 
 [Read more →](projects/ice-cream-dispenser.md)
 
@@ -48,11 +38,6 @@ Built a 5-stage pipelined processor in Verilog that controls DC motors and servo
 ### [Matchamatic: Automated Matcha Latte Maker](projects/matchamatic.md)
 **IoT beverage dispensing system with ESP32 and web interface**
 
-Designed an automated matcha latte maker with precision time-based pump calibration (±5mL accuracy), MOSFET motor control circuits, and a MicroPython-powered web interface.
-
-**Tech:** ESP32, MicroPython, MOSFET circuits, Peristaltic pumps, HTML/CSS/JS  
-**Skills:** Embedded systems, power electronics, calibration, accessibility, full-stack IoT
-
 [Read more →](projects/matchamatic.md)
 
 ---
@@ -60,22 +45,12 @@ Designed an automated matcha latte maker with precision time-based pump calibrat
 ### [Autonomous Indoor Navigation Robot](projects/autonomous-vehicle.md)
 **ROS-based robot with LiDAR, RGB-D camera, and custom YOLO-P dataset**
 
-Built an autonomous ground robot from scratch: mechanical assembly, electronics wiring, sensor calibration, and ROS integration. Created a 4,000-frame custom dataset for training YOLO-P model adapted for indoor lane detection. Successfully implemented real-time obstacle detection and emergency stop functionality.
-
-**Tech:** ROS, Arduino, RP LIDAR A3, Intel RealSense, YOLOv5, TensorRT, Differential drive  
-**Skills:** Robotics, sensor fusion, computer vision, dataset creation, multi-task learning
-
 [Read more →](projects/autonomous-vehicle.md)
 
 ---
 
 ### [DroneWQ: Water Quality Analysis Desktop App](projects/dronewq.md)
 **Electron desktop application for analyzing multispectral drone imagery**
-
-Led backend development and refactored research code for production deployment. Built Flask REST API, designed SQLite database, and packaged for PyPI distribution. Successfully delivered to clients for Journal of Open Source Software (JOSS) submission with comprehensive documentation.
-
-**Tech:** Python, Flask, SQLite, Electron, GDAL, NumPy, PyPI packaging  
-**Skills:** Backend development, API design, code refactoring, geospatial processing, documentation
 
 [Read more →](projects/dronewq.md)
 
@@ -96,4 +71,4 @@ ROS • Sensor Fusion • LiDAR Processing • Computer Vision (YOLOv5, TensorRT
 Python • C • JavaScript • Flask • Git • Linux • Docker • PyPI Packaging • API Design • SQLite
 
 **Hardware Tools & Fabrication**  
-Oscilloscope • Multimeter • Soldering • 3D Printing • Laser Cutting • Vivado • KiCAD • Waterproofing & Enclosure Design
+Oscilloscope • Multimeter • Soldering • 3D Printing • Laser Cutting • Vivado • Waterproofing & Enclosure Design
