@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+---
+layout: project
+title: WavGuard - Wakeboard Balance Training System
+---
 
 # Autonomous Indoor Navigation Robot
 
