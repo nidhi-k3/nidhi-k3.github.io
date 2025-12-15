@@ -7,6 +7,7 @@ title: Home
   <p class="subtitle"> Duke University '26</p>
   <p>Computer Science (ECE Focus) + Theater Studies</p>
 </div>
+
 ---
 ## About Me
 
