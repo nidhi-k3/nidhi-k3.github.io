@@ -2,18 +2,37 @@
 layout: default
 title: Home
 ---
+<nav class="main-nav">
+  <a href="/" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 <div class="hero">
   <h1>Nidhi Khiantani</h1>
   <p class="subtitle"> Duke University '26</p>
   <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
 </div>
 
+**Relevant Coursework:** Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math
+
+<div class="hero-buttons">
+    <a href="path/to/your/resume.pdf" class="btn-primary" download>Download Resume</a>
+  </div>
+</div>
+
 ---
+<div id="about"></div>
+
 ## About Me
 
 Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke (‘26) and looking for hardware engineering opportunities where I can design, test and optimize real systems! I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major.I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and LED feedback systems. I’ve also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
 
 ---
+<div id="projects"></div>
+
 ## Featured Projects
 
 <div class="project-grid">
@@ -98,4 +117,51 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
   </div>
 </div>
 
-</div>
+---
+<div id="skills"></div>
+
+## Skills
+
+**Hardware Design & Testing:** PCB Design (KiCad), FPGA Development (Vivado), Circuit Design, Oscilloscope, Logic Analyzer, Multimeter, Soldering, Hardware Debugging, Testing & Validation, Signal Processing
+
+**Embedded Systems & Firmware:** Arduino, ESP32 (S2/S3), STM32, Raspberry Pi, Jetson AGX Xavier, Nexys A7 FPGA
+
+**Protocols & Interfaces:** I²C, SPI, UART, PWM, Memory-Mapped I/O
+
+**HDL & Programming:** Verilog, C/C++, Python (NumPy, Pandas, PyTorch), Java, MATLAB, MicroPython, Assembly (MIPS)
+
+**Software & Development Tools:** Git, Linux, ROS2, Flask, Node.js, HTML/CSS, Google Cloud, Electron, Docker
+
+**CAD & Design:** Figma, Onshape, KiCad, 3D Printing
+
+**Robotics & Computer Vision:** LiDAR, RealSense RGB-D Camera, YOLO, Sensor Fusion, Dataset Creation
+
+---
+<div id="contact"></div>
+## Skills
+
+**Hardware Design & Testing:** PCB Design (KiCad), FPGA Development (Vivado), Circuit Design, Oscilloscope, Logic Analyzer, Multimeter, Soldering, Hardware Debugging, Testing & Validation, Signal Processing
+
+**Embedded Systems & Firmware:** Arduino, ESP32 (S2/S3), STM32, Raspberry Pi, Jetson AGX Xavier, Nexys A7 FPGA
+
+**Protocols & Interfaces:** I²C, SPI, UART, PWM, Memory-Mapped I/O
+
+**HDL & Programming:** Verilog, C/C++, Python (NumPy, Pandas, PyTorch), Java, MATLAB, MicroPython, Assembly (MIPS)
+
+**Software & Development Tools:** Git, Linux, ROS2, Flask, Node.js, HTML/CSS, Google Cloud, Electron, Docker
+
+**CAD & Design:** Figma, Onshape, KiCad, 3D Printing
+
+**Robotics & Computer Vision:** LiDAR, RealSense RGB-D Camera, YOLO, Sensor Fusion, Dataset Creation
+
+---  
+<div id="contact"></div>
+
+## Contact
+
+**Email:** nidhi.khiantani@duke.edu  
+**LinkedIn:** [linkedin.com/in/nidhi-khiantani](https://linkedin.com/in/nidhi-khiantani)  
+
+
+
+
