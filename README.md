@@ -1,10 +1,12 @@
 <link rel="stylesheet" type="text/css" href="style.css">
-# Nidhi Khiantani
+
+## Nidhi Khiantani
 
 **Computer Science (ECE Focus) + Theater Studies @ Duke University** | Graduating May 2026  
 Seeking Hardware Engineering Opportunities
 
-[LinkedIn](https://www.linkedin.com/in/nidhi-khiantani/) | [Email](ndk9@duke.edu) 
+[LinkedIn](https://www.linkedin.com/in/nidhi-khiantani/) 
+[Email](ndk9@duke.edu) 
 
 Relevant Coursework: Digital Systems (ECE 350), Full-Stack IoT (ECE 655), Data Structures & Algorithms, Computer Architecture, Product Design
 
