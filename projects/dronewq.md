@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+---
+layout: project
+title: DroneWQ - Water Quality Analysis Desktop App
+---
 
 # DroneWQ: Desktop Application for Water Quality Analysis from Drone Imagery
 
