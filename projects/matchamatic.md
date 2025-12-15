@@ -95,8 +95,7 @@ I built a 5-page interface (HTML/CSS/JavaScript) hosted on the ESP32:
 5. Done!
 
 ![Web Interface - Order Review](../images/matchamatic/ui-review.png)
-*User selects sweetness level and cold foam preference*
-*Review screen before starting*
+*User selects sweetness level and cold foam preference and sees review screen before starting*
 
 ---
 
