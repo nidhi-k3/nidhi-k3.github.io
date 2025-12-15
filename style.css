@@ -277,8 +277,8 @@ blockquote {
 /* ===== HORIZONTAL RULES ===== */
 hr {
   border: none;
-  height: 4px;  /* Even thicker */
-  background: linear-gradient(90deg, rgba(217, 151, 6, 0.3), var(--secondary-gold), rgba(217, 151, 6, 0.3));
+  height: 3px;
+  background-color: var(--secondary-gold);
   margin: var(--spacing-xl) 0;
   opacity: 1;
 }
