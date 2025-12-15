@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="../style.css">
+
 # WavGuard: Wakeboard Balance Training System
 
 ![Finished WavGuard Wakeboard](../images/wavguard/final-product.jpg)
