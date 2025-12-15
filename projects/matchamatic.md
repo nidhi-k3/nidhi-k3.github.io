@@ -94,10 +94,8 @@ I built a 5-page interface (HTML/CSS/JavaScript) hosted on the ESP32:
 4. Loading page
 5. Done!
 
-![Web Interface - Customization](../images/matchamatic/ui-customization.png)
-*User selects sweetness level and cold foam preference*
-
 ![Web Interface - Order Review](../images/matchamatic/ui-review.png)
+*User selects sweetness level and cold foam preference*
 *Review screen before starting*
 
 ---
