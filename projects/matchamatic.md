@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+---
+layout: project
+title: Matchamatic - ESP32 Matcha Latte Maker
+---
 
 # Matchamatic: Automated Matcha Maker
 
