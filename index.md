@@ -17,20 +17,19 @@ title: Home
   <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
   
   <div class="hero-buttons">
-    <a href="path/to/your/resume.pdf" class="btn-primary" download>Download My Resume</a>
+    <a href="resume.pdf" class="btn-primary" download>Download My Resume</a>
   </div>
 </div>
----
+
 <div id="about"></div>
 
 ## About Me
 
-Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke (‘26) and looking for hardware engineering opportunities where I can design, test and optimize real systems! I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major.I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and LED feedback systems. I’ve also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
+Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke ('26) and looking for hardware engineering opportunities where I can design, test and optimize real systems! I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major. I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and FPGA development. I've also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
 
----
 <div id="projects"></div>
 
-## Featured Projects
+## Projects
 
 <div class="project-grid">
 
@@ -88,7 +87,7 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
   </a>
   <div class="project-card-content">
     <h3><a href="projects/autonomous-vehicle">Autonomous Navigation Robot</a></h3>
-    <p>Ground-up robot build with LiDAR, RGB camera, and IMU. </p>
+    <p>Ground-up robot build with LiDAR, RGB camera, and IMU.</p>
     <div class="project-tech">
       <span class="tech-tag">ROS</span>
       <span class="tech-tag">LiDAR</span>
@@ -114,7 +113,8 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
   </div>
 </div>
 
----
+</div>
+
 <div id="skills"></div>
 
 ## Skills
@@ -133,7 +133,6 @@ Hello! I’m pursuing a B.S. in Computer Science with an ECE focus + Theater Stu
 
 **Robotics & Computer Vision:** LiDAR, RealSense RGB-D Camera, YOLO, Sensor Fusion, Dataset Creation
 
----
 <div id="contact"></div>
 
 ## Contact
