@@ -277,9 +277,10 @@ blockquote {
 /* ===== HORIZONTAL RULES ===== */
 hr {
   border: none;
-  height: 1px;
-  background-color: var(--border-color);
-  margin: var(--spacing-2xl) 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--secondary-gold), transparent);
+  margin: var(--spacing-xl) 0;
+  opacity: 1;
 }
 
 /* ===== RESPONSIVE ===== */
