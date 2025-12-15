@@ -5,7 +5,7 @@ title: Home
 <div class="hero">
   <h1>Nidhi Khiantani</h1>
   <p class="subtitle"> Duke University '26</p>
-  <p>Computer Science (ECE Focus) + Theater Studies</p>
+  <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
 </div>
 
 ---
