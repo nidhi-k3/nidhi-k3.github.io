@@ -202,7 +202,10 @@ Successfully created a working prototype that provides real-time balance feedbac
 - Water testing validated sensor accuracy and LED visibility
 - User testing confirmed feedback was intuitive
 
-![Water Testing](../images/wavguard/water-testing.jpg)
+<video width="100%" controls style="border-radius: 8px; margin: var(--spacing-lg) 0;">
+     <source src="../images/wavguard/IMG_0814.mov" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
 *Final wakeboard in water test with simulated wake and rope*
 
 ![CAD Drawings](../images/wavguard/cad-drawings.jpg)
