@@ -203,9 +203,9 @@ Successfully created a working prototype that provides real-time balance feedbac
 - User testing confirmed feedback was intuitive
 
 <video width="100%" controls style="border-radius: 8px; margin: var(--spacing-lg) 0;">
-     <source src="../images/wavguard/IMG_0814.mov" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
+  <source src="../images/wavguard/water-testing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Final wakeboard in water test with simulated wake and rope*
 
 ![CAD Drawings](../images/wavguard/cad-drawings.jpg)
