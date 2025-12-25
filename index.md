@@ -11,13 +11,21 @@ title: Home
 </nav>
 
 <div class="hero">
-  <h1>Nidhi Khiantani</h1>
-  <p class="subtitle">Duke University '26</p>
-  <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
-  <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
-  
-  <div class="hero-buttons">
-    <a href="resume.pdf" class="btn-primary" download>Download My Resume</a>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Nidhi Khiantani</h1>
+      <p class="subtitle">Duke University '26</p>
+      <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
+      <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
+      
+      <div class="hero-buttons">
+        <a href="resume.pdf" class="btn-primary" download>Download My Resume</a>
+      </div>
+    </div>
+    
+    <div class="hero-image">
+      <img src="images/your-wakeboard-photo.jpg" alt="Nidhi on wakeboard">
+    </div>
   </div>
 </div>
 
