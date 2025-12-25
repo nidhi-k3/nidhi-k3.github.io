@@ -24,7 +24,7 @@ title: Home
     </div>
     
     <div class="hero-image">
-      <img src="images/your-wakeboard-photo.jpg" alt="Nidhi on wakeboard">
+      <img src="images/cover_image.JPG" alt="Nidhi on wakeboard!">
     </div>
   </div>
 </div>
