@@ -24,7 +24,6 @@ title: Home
     </div>
     
     <div class="hero-image">
-      <img src="images/headshot.jpg" alt="Nidhi Khiantani" style="border-radius: 10px; margin-bottom: 15px;">
       <img src="images/cover_image.JPG" alt="Nidhi on wakeboard!" style="border-radius: 10px;">
     </div>
   </div>
