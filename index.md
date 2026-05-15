@@ -12,14 +12,18 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
+    <div class="hero-headshot">
+      <img src="images/headshot.jpg" alt="Nidhi Khiantani">
+    </div>
+
     <div class="hero-text">
       <h1>Nidhi Khiantani</h1>
-      <p class="subtitle">Duke University '26</p>
-      <p>Computer Science with a focus in Electrical and Computer Engineering + Theater Studies</p>
+      <p class="subtitle">Duke University '26 · University of Michigan MEng '27</p>
+      <p>B.S. Computer Science & ECE + Theater Studies · MEng ECE, Autonomous Systems Concentration</p>
       <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
       
       <div class="hero-buttons">
-        <a href="resume.pdf" class="btn-primary" download>Download My Resume</a>
+        <a href="resume.pdf" class="btn-primary" target="_blank">View My Resume</a>
       </div>
     </div>
     
@@ -33,7 +37,7 @@ title: Home
 
 ## About Me
 
-Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studies at Duke ('26) and looking for hardware engineering opportunities where I can design, test and optimize real systems! I began my studies in Computer Science at Duke University and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design alongside my CS major. I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and FPGA development. I've also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
+Hello! I recently graduated from Duke University with a B.S. in Computer Science (ECE focus) and Theater Studies, and I'm heading to the University of Michigan for a Master of Engineering in ECE with a concentration in Autonomous Systems. I'm looking for hardware engineering opportunities where I can design, test, and optimize real systems! I began my studies in Computer Science at Duke and quickly discovered I wanted to physically build as well as code. That led me to focus on embedded systems, sensor integration, and hardware design. I have designed and developed hardware products, including custom PCBs, microcontroller-based systems (ESP32), sensor arrays (IMU, FSRs), and FPGA development. I've also executed test plans, validated hardware performance under real-world conditions, and troubleshooted hardware issues.
 
 <div id="projects"></div>
 
@@ -85,6 +89,22 @@ Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studi
       <span class="tech-tag">Motor Control</span>
       <span class="tech-tag">Web Server</span>
       <span class="tech-tag">Calibration</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card-grid">
+  <a href="projects/CPSL">
+    <img src="images/icaraus/platforms.jpg" alt="IcaRAus UGV and UAV" class="project-thumbnail">
+  </a>
+  <div class="project-card-content">
+    <h3><a href="projects/CPSL">IcaRAus: Radar-Based Robot Navigation</a></h3>
+    <p>Co-authored IEEE T-RO paper on GNN-enhanced radar point clouds for autonomous UGV and UAV navigation.</p>
+    <div class="project-tech">
+      <span class="tech-tag">ROS2</span>
+      <span class="tech-tag">mmWave Radar</span>
+      <span class="tech-tag">SLAM</span>
+      <span class="tech-tag">Nav2</span>
     </div>
   </div>
 </div>
@@ -145,9 +165,6 @@ Hello! I'm pursuing a B.S. in Computer Science with an ECE focus + Theater Studi
 
 ## Contact
 
-**Email:** nidhi.khiantani@duke.edu  
-**LinkedIn:** [linkedin.com/in/nidhi-khiantani](https://linkedin.com/in/nidhi-khiantani)  
-
-
-
+**Email:** nkhian@umich.edu  
+**LinkedIn:** [linkedin.com/in/nidhi-khiantani](https://linkedin.com/in/nidhi-khiantani)
 
