@@ -3,6 +3,8 @@ layout: default
 title: "IcaRAus - Radar-Based Robot Navigation | Nidhi Khiantani"
 ---
 
+[← Back to Portfolio](https://nidhi-k3.github.io/)
+
 # Cyber Physical Sensing Lab: Radar-Based Autonomous Navigation for UGVs and UAVs
 
 ![Research Poster](../images/icaraus/poster.jpg) *Research poster presented at Duke University, Spring 2026*
@@ -54,7 +56,7 @@ After tuning, the UGV generated stable 2D maps of Wilkinson 4th floor using rada
 
 I flew box, cross, and diamond trajectories on the UAV while recording from both the mmWave radar and an ARK Flow optical flow sensor. VICON motion capture provided sub-millimeter ground truth.
 
-![UAV testing conditions](../images/icaraus/uav-testing.jpg) *UAV testing under nominal lighting (left) and low-light conditions (right). Radar performance stayed stable in both; optical flow degraded significantly in the dark.*
+![UAV testing conditions](../images/icaraus/uav-testing.png) *UAV testing under nominal lighting (left) and low-light conditions (right). Radar performance stayed stable in both; optical flow degraded significantly in the dark.*
 
 **Collected:** 9 optical flow + 8 radar trajectories, averaging 25m per trial
 

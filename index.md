@@ -12,10 +12,6 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
-    <div class="hero-headshot">
-      <img src="images/headshot.jpg" alt="Nidhi Khiantani">
-    </div>
-
     <div class="hero-text">
       <h1>Nidhi Khiantani</h1>
       <p class="subtitle">Duke University '26</p>
@@ -30,7 +26,8 @@ title: Home
     </div>
     
     <div class="hero-image">
-      <img src="images/cover_image.JPG" alt="Nidhi on wakeboard!">
+      <img src="images/headshot.jpg" alt="Nidhi Khiantani" style="border-radius: 10px; margin-bottom: 15px;">
+      <img src="images/cover_image.JPG" alt="Nidhi on wakeboard!" style="border-radius: 10px;">
     </div>
   </div>
 </div>
@@ -168,4 +165,5 @@ Hello! I recently graduated from Duke University with a B.S. in Computer Science
 ## Contact
 
 **Email:** nkhian@umich.edu  
-**LinkedIn:** [linkedin.com/in/nidhi-khiantani](https://linkedin.com/in/nidhi-khiantani)
+**LinkedIn:** [linkedin.com/in/nidhi-khiantani](https://linkedin.com/in/nidhi-khiantani)  
+
