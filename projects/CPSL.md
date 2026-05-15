@@ -1,4 +1,7 @@
-[← Back to Portfolio](https://nidhi-k3.github.io/)
+---
+layout: default
+title: "IcaRAus - Radar-Based Robot Navigation | Nidhi Khiantani"
+---
 
 # Cyber Physical Sensing Lab: Radar-Based Autonomous Navigation for UGVs and UAVs
 
@@ -8,21 +11,19 @@
 
 ## Overview
 
-I worked in Duke's Cyber-Physical Systems Lab (CPSL) on IcaRAus - a graph neural network framework that cleans up sparse mmWave radar point clouds so ground and aerial robots can navigate autonomously without needing LiDAR or cameras. I'm a co-author on the paper submitted to IEEE Transactions on Robotics (T-RO).
+I worked in Duke's Cyber-Physical Systems Lab (CPSL) on IcaRAus — a graph neural network framework that cleans up sparse mmWave radar point clouds so ground and aerial robots can navigate autonomously without needing LiDAR or cameras. I'm a co-author on the paper submitted to IEEE Transactions on Robotics (T-RO).
 
 My contributions fell into two tracks: tuning the SLAM and navigation stack on the lab's UGV, and collecting UAV flight datasets to benchmark radar vs. optical flow for state estimation.
 
 **Technologies:** ROS2 Jazzy, SLAM Toolbox, Nav2, TI mmWave radar (IWR1843, IWR6843-ODS), Livox LiDAR, iRobot Create3, Holybro X500 V2 UAV, PX4, VICON motion capture, Python, Ubuntu 24.04
 
-| **Timeline:** Spring 2026 | **Lab:** CPSL, Duke University |
-| --- | --- |
-| **Advisors:** David Hunt, Miroslav Pajic | **Publication:** IEEE T-RO (submitted) |
+**Timeline:** Spring 2026 · **Lab:** CPSL, Duke University · **Advisors:** David Hunt, Miroslav Pajic · **Publication:** IEEE T-RO (submitted)
 
 ---
 
 ## The Problem
 
-LiDAR is expensive, heavy, and power-hungry. Cameras fail in low light. MmWave radar is cheap, lightweight, and works in any visibility, but its point clouds are extremely sparse (~90% fewer points than 2D LiDAR) and over 50% of detections can be multipath artifacts. IcaRAus uses a tiny 45.8K-parameter GNN running in under 10ms on an edge CPU to filter out the noise and densify the data for real-time SLAM and navigation.
+LiDAR is expensive, heavy, and power-hungry. Cameras fail in low light. MmWave radar is cheap, lightweight, and works in any visibility — but its point clouds are extremely sparse (~90% fewer points than 2D LiDAR) and over 50% of detections can be multipath artifacts. IcaRAus uses a tiny 45.8K-parameter GNN running in under 10ms on an edge CPU to filter out the noise and densify the data for real-time SLAM and navigation.
 
 ---
 
@@ -79,7 +80,7 @@ The overall framework (GNN + velocity estimation + SLAM/Nav2) achieved across fo
 
 ## What I Learned
 
-The biggest lesson was debugging silent failures in ROS2. The QoS mismatch I found — where the radar driver and SLAM Toolbox used incompatible Quality of Service settings, causing scans to be dropped without any error — was the kind of thing that just makes your maps look bad with no obvious explanation. Learning to diagnose that was really important.
+The biggest lesson was debugging silent failures in ROS2. The QoS mismatch I found — where the radar driver and SLAM Toolbox used incompatible Quality of Service settings, causing scans to be dropped without any error — was the kind of thing that just makes your maps look bad with no obvious explanation. Learning to diagnose that was really valuable.
 
 Working with radar data also changed how I think about sensors. With LiDAR you get thousands of clean points. With radar you get ~80-100 points per frame and half are fake. Every downstream algorithm has to account for that.
 
