@@ -14,10 +14,8 @@ title: Home
   <div class="hero-content">
     <div class="hero-text">
       <h1>Nidhi Khiantani</h1>
-      <p class="subtitle">Duke University '26</p>
-      <p>B.S. Computer Science & ECE + Theater Studies</p>
-      <p class="subtitle">University of Michigan '27</p>
-      <p>MEng ECE, Autonomous Systems Concentration</p>
+      <p class="subtitle">Duke University '26 · B.S. Computer Science & ECE + Theater Studies</p>
+      <p class="subtitle">University of Michigan '27 · MEng ECE, Autonomous Systems</p>
       <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
       
       <div class="hero-buttons">
@@ -97,7 +95,7 @@ Hello! I recently graduated from Duke University with a B.S. in Computer Science
     <img src="images/icaraus/platforms.jpg" alt="IcaRAus UGV and UAV" class="project-thumbnail">
   </a>
   <div class="project-card-content">
-    <h3><a href="projects/CPSL">IcaRAus: Radar-Based Robot Navigation</a></h3>
+    <h3><a href="projects/CPSL">Cyber Physical Sensing Lab</a></h3>
     <p>SLAM tuning and UAV dataset collection for a GNN-based radar navigation framework. Paper submitted to IEEE T-RO.</p>
     <div class="project-tech">
       <span class="tech-tag">ROS2</span>
