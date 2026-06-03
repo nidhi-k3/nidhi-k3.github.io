@@ -14,7 +14,7 @@ title: Home
   <div class="hero-content">
     <div class="hero-text">
       <h1>Nidhi Khiantani</h1>
-      <p class="subtitle">Duke University '26 · B.S. Computer Science & ECE + Theater Studies</p>
+      <p class="subtitle">Duke University '26 · B.S. Computer Science + Theater Studies</p>
       <p class="subtitle">University of Michigan '27 · MEng ECE, Autonomous Systems</p>
       <p class="coursework"><strong>Relevant Coursework:</strong> Digital Systems, IoT Systems, Electrical and Computer Engineering Fundamentals, Advanced Data Structures and Algorithms, Product Design, Computer Systems, Discrete Math</p>
       
